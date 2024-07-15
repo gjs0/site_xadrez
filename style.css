@@ -306,9 +306,9 @@ footer>h4{
     text-decoration: none;
 }
 
-.ajustar{
+.p_vitin{
+    margin: 0px 30px 0px 30px;
     padding: 5px 70px 30px 60px;
-    margin:20px 0px;
     color:var(--cor_0);
 
     text-indent: 0px;
@@ -316,7 +316,7 @@ footer>h4{
 
     font-family: Roboto, sans-serif;
 
-    line-height: 30px;    
+    line-height: 30px;
 }
 
 footer>p>abbr{
