@@ -254,7 +254,7 @@ span{
     font-family: cursive;
 }
 
-.ref>li>a{
+.ref_a{
     color: var(--cor_5);
 }
 
