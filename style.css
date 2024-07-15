@@ -151,8 +151,7 @@ body{
 main{
     background-color: var(--cor_0);
     padding: 30px; /*ñ mexer mais*/
-    margin-bottom: -16; /*ñ mexer, rodapé encostou no main*/
-    margin: 0px 80px;
+    margin: 0px 80px 0px 64px;
     
 
     text-align: justify;
