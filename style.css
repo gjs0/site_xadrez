@@ -25,9 +25,8 @@ h1{
     display: block;
     background-image: linear-gradient(to top,rgb(2, 94, 115),rgb(4, 113, 130),rgb(3, 128, 139));
 
-    margin: 0px -56px;
-    padding-top: 11px;
-    padding-bottom: 10px;
+    margin: 0px -84px 0px 0px;
+    padding: 10px;
     
 
     text-align: center;
@@ -45,9 +44,11 @@ header{
     
     background-color: var(--cor_2);
     font-weight: 800;
-    padding-bottom: 10px;
-    margin-right: -56px;
-    margin-top: -2px;
+    
+    padding-bottom: 10px;/*daqui*/
+    margin-right: -84px;
+    margin-left: 0px;
+    margin-top: -2px;/*aqui*/
        
 }
 
@@ -274,7 +275,7 @@ footer{
     background-color:var(--cor_1);
 
     margin-left: 0px;
-    margin-right: -56px;
+    margin-right: -84px;
     margin-top: 0px;
     margin-bottom: -17px;
 
@@ -282,7 +283,7 @@ footer{
 }
 
 footer>p>a{
-    padding-left: 25px;
+    padding-left: 65px;
     color:var(--cor_5);
 
     text-decoration: none;
