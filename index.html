@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regras do Xadrez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+</head>
+    <body>
+        <h1>Regras do Jogo de Xadrez</h1>
+        <header>
+            <a href="#">Início</a>
+            <a href=#meu-footer>Sobre</a>
+        </header>
+        <main>
+            <img src="imagens/crianças_jogandoG.jpg" alt="Crianças Jogando Xadrez" class="primeira_img">
+            <h2>Introdução</h2>
+            <p class="p_item_intro">
+                <strong>Xadrez</strong> é um jogo de tabuleiro que exige um bom raciocínio estratégico para o desenvolvimento das jogadas, que terão efeitos de médio e longo prazo no decorrer da jogatina. É um ótimo exercício para a mente, além de muito divertido e satisfatório também.
+                <p class="p_item_intro">O objetivo do jogo é dar <em>xeque-mate</em>, que é a jogada que cerca o rei (peça principal) e impede que ele se movimente no tabuleiro.</p>
+            </p>
+            <p class="p_item_intro">Esta página tem como objetivo explicar a base do jogo de Xadrez, de forma clara, simples e direta. Espero que você goste!</p>
+            
+                
+                <section>
+                    <h2>Organização das peças e orientação pelo tabuleiro</h2>
+                    <h3>Peças</h3>
+                    <p class="p_pecas"><span class="bolinhas">♙</span><span class="bolinhas">♖</span><span class="bolinhas">♘</span></p>
+                    <p class="p_pecas"><span class="bolinhas">♗</span><span class="bolinhas">♔</span><span class="bolinhas">♕</span></p>
+                    <p>O jogo de Xadrez é composto por 16 (dezesseis) peças, sendo:</p>
+                        <div class="centralizar_lista">
+                            <ul class="balao_lista">
+                                <li>8(oito)peões;</li>
+                                <li>2(duas)torres;</li>
+                                <li>2(dois)cavalos;</li>
+                                <li>2(dois)bispos;</li>
+                                <li>1(um)rei;</li>
+                                <li>1(uma)dama.</li>
+                            </ul>
+                        </div>
+                    <h3>Coordenadas</h3>
+                    <p>No tabuleiro de xadrez, as colunas <em>são nomeadas por letras, indo da letra “A” até a letra ”H”</em>. Já as linhas <em>são numeradas por números do ”1” ao “8”</em>. Por padrão, as linhas 1 e 2 são sempre ocupadas pelas peças claras, já as linhas 7 e 8, pelas peças escuras.</p>
+                    <div class="cor_fundo3"><img src="imagens/tabuleiro_xadrez.jpg" alt="Tabuleiro de Xadrez Completo" class="outras_img"></div>
+                    <p>Assim, é possível que se estabeleça as coordenadas “X” (nomeadas pelas letras) e “Y” (nomeadas pelos números). Por exemplo, com base na posição inicial, o rei  das peças claras está na casa e1, já a dama das peças escuras está na casa d8. Desse modo, fica fácil localizar as peças no tabuleiro e planejar as jogadas. </p>
+                        
+                </section>
+                <h2>Movimento das peças</h2>
+                <div>
+                    <span>♙</span>
+                    <div class="centralizar_txt">Peões</div>
+                    <p class="item_mov_pecas">Movem-se apenas para a frente, percorrendo uma única casa por jogada e só capturam na diagonal. Entretanto, em seu primeiro movimento, o peão pode avançar duas casas numa mesma jogada.</p>
+                    <span>♖</span>
+                    <div class="centralizar_txt">Torres</div>
+                    <p class="item_mov_pecas" >Movem-se em linha reta, para os quatro lados, e por quantas casas o jogador quiser por jogada.</p>
+                    <div class="centralizar_txt"><span>♗</span></div>
+                    <div class="centralizar_txt">Bispos</div>
+                    <p class="item_mov_pecas">Movem-se na diagonal  e por quantas casas o jogador quiser por jogada.</p>
+                    <span>♘</span>
+                    <div class="centralizar_txt">Cavalos</div>
+                    <p class="item_mov_pecas">O cavalo  avança duas casas em linha reta, para qualquer direção e, depois, mais uma casa para o lado, pode ser qualquer um dos dois lados, desde que ele não esteja ocupado por uma peça do próprio time. O cavalo tem a habilidade de saltar as peças das duas primeiras casa percorridas, sejam elas peças do próprio time ou do time adversário,  e a captura é feita quando a peça adversária está na última casa. O cavalo percorre o tabuleiro com movimentos em “L”.</p>
+                    <div class="cor_fundo">
+                        <div><img src="imagens/cavalo.jpg" alt="cavalo" class="outras_img"></div>
+                    
+                        <p style="color:#025E73; font-weight: bold;padding: 20px;">O <strong>cavalo</strong> encontra-se em <strong>e5</strong> e, como já dito, ele pode percorrer duas casas em linha reta e uma para o lado, tendo, nesse caso, as possíveis rotas:
+                            <div style="padding: 10px; color:#025E73; font-weight: bold;">
+                                <ul type="circle">
+                                    <li>Percorre f5 e g5; ficando em <em>g4 ou g6</em>;</li>
+                                    <li>Percorre e4 e e3; ficando em <em>d3 ou f3</em>;</li>
+                                    <li>Percorre d5 e c5; ficando em <em>c4 ou c6</em>;</li>
+                                    <li>Percorre e6 e e7; <em>captura</em> peão em <em>d7 ou f7</em>;</li>
+                                </ul>
+                            </div>
+                        </p>
+                    </div>
+                    <span>♕ </span>
+                    <div class="centralizar_txt">Dama</div>
+                    <p class="item_mov_pecas">Também chamada de rainha, é, sem dúvida, a peça mais forte do jogo, move-se em linha reta, para os quatro lados, e na diagonal, podendo se deslocar por quantas casas o jogador quiser, dede que seja num mesmo sentido, ou seja, ou só em linha reta ou só na diagonal.</p>
+                    <span>♔ </span>
+                    <div class="centralizar_txt">Rei</div>
+                    <p class="item_mov_pecas">Como já dito, o rei é a peça principal e, assim como a dama, anda em todas as direções, mas uma só casa por jogada. O jogador deve proteger o seu rei e encurralar o rei adversário.</p>
+                </div>
+            <h2>
+                Xeque e Xeque-mate
+            </h2>
+
+            <div class="cor_fundo" style="text-align: center;">
+                <div class="outras_img"><img src="imagens/rei_em_xeque.jpg" alt="rei em xeque">
+                <p style="color:#025E73; font-weight: bold;">Rei escuro em Xeque. Bispo ataca em b5.</p></div>
+            </div>
+            <p>
+                Quando o rei é atacado por uma peça adversária, ele fica em <strong>xeque</strong>; nesse caso, o jogador  pode: <p>1. <strong>tentar interceptar o ataque com outra peça</strong>;</p>
+                <div class="cor_fundo" style="text-align: center;">
+                    <div class="outras_img"><img src="imagens/peao_intercepta_xeque_bispoP.jpg" alt="peão interceptando xeque">
+                    <p style="color:#025E73; font-weight: bold;">Peão intercepta o ataque do bispo em c6.</p></div>
+                </div>
+                
+                <p>2. <strong>capturar a peça que está atacando</strong> ou <strong>movimentar o rei para salvá-lo.</strong> </p>
+                
+                <div class="cor_fundo" style="text-align: center;">
+                    <div class="outras_img"><img src="imagens/rei_escapa_xequeP.jpg" alt="rei escapa xeque">
+                    <p style="color:#025E73; font-weight: bold;">Rei escapa do xeque indo para e7.</p></div>
+                </div>
+
+                <p>
+                    O jogador não pode movimentar outra peça senão para tirar o rei do xeque.
+                    Se o rei for impossibilitado de se livrar de um ataque, seja por meio do movimento do próprio rei ou de outra peça que o safe, ocorre o famoso <strong>xeque-mate</strong> e a partida encerra-se.
+                </p>
+                <div class="cor_fundo3" style="text-align: center;">
+                    <div class="outras_img">
+                        <picture>
+                            <source media="(max-width:671px)" srcset="imagens/xeque_matePP.jpg" type="image/jpeg">
+                            <img src="imagens/xeque_mateP.jpg" alt="xeque-mate">
+                        </picture>
+                    <p style="color:#f5cf88; font-weight: bold;"><strong>Xeque-mate.</strong> A dama em d8 ataca todas as casas da <em>linha 8</em>, e o bispo <em> em e5</em> ataca a <em>casa g7</em>, deixando, assim, o rei completamente cercado. </p></div>
+                </div>
+            </p>
+            <article>
+                <h2>Movimentos especiais</h2>
+                <h3>Captura en passant</h3>
+                <p>
+                    <strong>En passant é o movimento especial de captura de um peão por outro peão</strong>.
+                    Como já dito, o peão pode avançar duas casas no seu primeiro movimento. Quando esse movimento é realizado e o peão finaliza seu movimento ao lado de um peão inimigo, este pode capturá-lo como se o peão que realizou o duplo avanço estivesse à sua frente. Entenda melhor observando a imagem que explica o <em>en passant</em>.
+                </p>
+
+                <div style="text-align: center; margin-left: -18px;"><img src="imagens/en_passant.JPG" alt="En_passant"></div>
+                <ol type="1" style="color:#025E73; font-weight: bold;">
+                    <li>Peão claro de <em>e2</em> vai para <em>e4</em>, avançando, com esse movimento, duas casas.</li>
+                    <li>Peão claro em <em>e4</em> emparelha-se com peão escuro de <em>f4</em>.</li>
+                    <li>Peão escuro vai de <em>f4</em> a <em>e3</em>, executando a captura <em>en passant</em>, como se o peão branco estivesse em <em>e3</em>.</li>
+                </ol>
+
+                <h3>Roque</h3>
+                <p>
+                    <strong>Roque</strong> é o movimento especial do rei executado junto com uma das torres. Nele, move-se o rei duas casas em linha reta para a esquerda ou direita e move-se a torre para a casa imediatamente anterior, deixando, assim, rei e torre lado a lado. Veja.
+                </p>
+                
+
+                    <div class="cor_fundo2" style="text-align: center;">
+                        <h4>Roque Curto</h4>
+                        <div class="outras_img" style="padding-top: 60px;"><img src="imagens/roque_curtoP.jpg" alt="roque curto"></div>
+                        
+                        <p style="color:#025E73; font-weight: bold;padding: 20px;">A bolinha azul indica o local onde o rei irá ficar após o roque, e a bolinha verde ao lado da azul indica o local onde a torre irá ficar.
+                        </p>
+                        <div class="outras_img" style="padding-top: 60px;"><img src="imagens/roque_curto_realizadoP.jpg" alt="roque curto realizado"></div>
+                        <p style="color:#025E73; font-weight: bold; padding: 20px;">Veja que agora o roque já foi realizado. O roque do rei com a torre de <em>h1</em>, ou torre da direita, é chamado de <strong>roque curto</strong>, pois a distância entre eles é menor do que a distância entre o rei e da torre de <em>a1</em>, ou da esquerda.</p>
+                        <p style="color:#025E73; font-weight: bold; padding-bottom: 50px; padding: 20px;">Veja agora um exemplo de <strong>roque longo</strong>.</p>
+                    </div>
+                    <div class="cor_fundo2" style="text-align: center;">
+                        <h4>Roque Longo</h4>
+                        <div class="outras_img" style="padding-top: 60px;"><img src="imagens/roque_longoP.jpg" alt="roque longo"></div>
+                            <p style="color:#025E73; font-weight: bold;padding: 20px;">Roque longo pronto para ser realizado pelo rei e a torre de <em>a8</em> das peças escuras. Lembrando, mais uma vez que a bolinha azul indica o local onde ficará o rei após o roque, já a verde, que está ao lado dela, o local da torre.</p>
+                            <div class="outras_img" style="padding-top: 60px;"><img src="imagens/roque_longo_realizadoP.jpg" alt="roque longo realizado"></div>
+                        <p style="color:#025E73; font-weight: bold;padding: 20px;">Roque longo realizado pelas peças escuras.</p>
+                    </div>
+                    
+                <p>
+                    O roque só pode ser realizado <strong>se a torre e o rei não tiverem sido mexidos</strong>, <strong>se nenhuma casa por onde o rei e torre forem passar estiver ameaçada por peças inimigas</strong>, <strong>se o rei não ficar em xeque após o roque</strong> e <strong>se o caminho entre rei e torre estiver vazio</strong>.
+                </p>
+            </article>
+            <p class="agradecimento">Bem, isso é tudo. Espero que tenha gostado da explicação sobre as regras do jogo de Xadrez e que tenha aprendido um pouco. Agradeço pela sua atenção! Até mais!</p>
+            <div class="ref">
+                <h2>Referências</h2>
+                <p>
+                    <ul type="none" class="ref">
+                        <li>Imagem  “Crianças jogando xadrez”,  disponível no Site Pexels, em: <a href="https://www.pexels.com/pt-br/foto/menina-garota-moca-jogando-8466163/">https://www.pexels.com/pt-br/foto/menina-garota-moca-jogando-8466163/</a>  Acesso em: 13/07/24.</li>
+                        <li>Imagens de “tabuleiros de xadrez cor marrom”, capturas de tela do jogo “Xadrez”, disponível em: <a href="https://play.google.com/store/apps/details?id=com.jetstartgames.chess&pcampaignid=web_share">https://play.google.com/store/apps/details?id=com.jetstartgames.chess&pcampaignid=web_share</a></li>
+                        <li>Imagem “explicação em passant”, feita pelo editor.</li>
+                    </ul>
+                </p>
+            </div>
+        </main>
+        <footer id="meu-footer">
+                <p>
+                    <a href="#"> <strong>⬆️</strong> Voltar ao topo</a>
+                </p>
+                <div style="text-align: center;"><img src="imagens/devICO.png" alt="devICO"></div>
+                <h4>Sobre</h4>
+                <p class="ajustar">
+                Este site é um projeto de fixação de aprendizagem das linguagens  <abbr title="HTML - HyperText Markup Language ou Linguagem de Marcação de Hipertexto">HTML</abbr> e <abbr title="CSS - Cascading Style Sheets ou Folha de Estilos em Cascata">CSS</abbr>. O jogo xadrez foi escolhido como tema porque é um jogo que eu admiro e gosto bastante. Ah! Antes que eu me esqueça, aproveito a oportunidade para mandar um salve &#128077; ao Sr. Vitin, que me explicou as regras básicas do xadrez e, atualmente,  virou meu freguês de tabuleiro (“Dar um jeitinho, hem!?”).
+                </p>
+                
+
+            <p style="text-align: center;color:#025E73;padding-bottom: 10px;font-weight: bold;margin-bottom: -40px;"></p>
+            <p class="txt_final">Desenvolvido por Gustavo</p>
+        </footer>
+
+</body>
+</html>
